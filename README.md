@@ -164,14 +164,3 @@ Code coverage is measured using **Coverage.py**, which is integrated into the te
 ### Mutation Testing
 
 The project uses **Mutmut** to perform mutation testing, which helps assess the robustness of the unit tests by introducing changes to the code and checking whether the tests fail as expected.
-
-## Contribution
-
-If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. Ensure that you write tests for new features or bug fixes and maintain good code coverage.
-
-## License
-
-This project is licensed under the MIT License.
-```
-
-You can copy and paste the entire content as one single block. Let me know if you need any adjustments!
