@@ -22,3 +22,11 @@ async def redirect_url(short_id: str):
     if not mapping:
         raise HTTPException(status_code=404, detail="URL not found")
     return {"original_url": mapping.original_url}
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the URL Shortener API!"}
