@@ -1,0 +1,48 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+.VENV/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Byte-compiled files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Testing artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Code coverage reports
+coverage.xml
+*.cover
+reports/
+
+# Mutation testing artifacts
+mutmut_config.ini
+mutation_testing_results/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python package files
+*.lock
